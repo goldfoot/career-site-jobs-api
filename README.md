@@ -3,7 +3,7 @@
 Get **every open job from a company's own career site** as clean JSON, whichever applicant tracking system (ATS) it uses. This repo shows two ways:
 
 1. **DIY:** call the public job-board feeds yourself. [`diy/fetch_jobs.py`](diy/fetch_jobs.py) is a dependency-free Python script for 10 ATS: `python diy/fetch_jobs.py greenhouse:stripe personio:personio`.
-2. **Managed:** use the [Career Site Jobs Scraper](https://apify.com/goldfoot/ats-jobs-feed) on Apify ([`managed/`](managed/)). It covers 10 ATS platforms, auto-detects the board from a plain domain, normalizes all fields (salary, remote, location…) and has an "only new jobs" monitoring mode. *(Disclosure: I built it.)*
+2. **Managed:** use the [Career Site Jobs Scraper](https://apify.com/goldfoot/ats-jobs-feed?fpr=eft8ey) on Apify ([`managed/`](managed/)). It covers 10 ATS platforms, auto-detects the board from a plain domain, normalizes all fields (salary, remote, location…) and has an "only new jobs" monitoring mode. *(Disclosure: I built it. Apify links here are affiliate links: if you start a paid Apify plan through them, I earn a commission at no extra cost to you.)*
 
 ## Public feeds per ATS (DIY)
 
